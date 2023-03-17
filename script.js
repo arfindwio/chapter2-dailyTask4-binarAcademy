@@ -26,34 +26,34 @@ const rl = readline.createInterface({
 // });
 
 // 1 hasil tambah inputan user (done)
-// rl.question("Angka pertama yang mau di jumlahkan? ", (angka1) => {
-//   rl.question("Angka kedua yang mau di jumlahkan? ", (angka2) => {
-//     const hasil1 = sum(parseInt(angka1), parseInt(angka2));
-//     console.log(`hasil dari penjumlahan ${angka1} and ${angka2} adalah ${hasil1}`);
+rl.question("Angka pertama yang mau di jumlahkan? ", (angka1) => {
+  rl.question("Angka kedua yang mau di jumlahkan? ", (angka2) => {
+    const hasil1 = sum(parseInt(angka1), parseInt(angka2));
+    console.log(`hasil dari penjumlahan ${angka1} and ${angka2} adalah ${hasil1}`);
 
-//     rl.close();
-//   });
-// });
+    rl.close();
+  });
+});
 
 // 2 hasil kurang inputan user
-// rl.question("Angka pertama yang mau di kurangkan? ", (angka1) => {
-//   rl.question("Angka kedua yang mau di kurangkan? ", (angka2) => {
-//     const hasil2 = kurang(parseInt(angka1), parseInt(angka2));
-//     console.log(`hasil dari pengurangan ${angka1} and ${angka2} adalah ${hasil2}`);
+rl.question("Angka pertama yang mau di kurangkan? ", (angka1) => {
+  rl.question("Angka kedua yang mau di kurangkan? ", (angka2) => {
+    const hasil2 = kurang(parseInt(angka1), parseInt(angka2));
+    console.log(`hasil dari pengurangan ${angka1} and ${angka2} adalah ${hasil2}`);
 
-//     rl.close();
-//   });
-// });
+    rl.close();
+  });
+});
 
 // 3 hasil kali inputan user
-// rl.question("Angka pertama yang mau di kalikan? ", (angka1) => {
-//   rl.question("Angka kedua yang mau di kalikan? ", (angka2) => {
-//     const hasil3 = kali(parseInt(angka1), parseInt(angka2));
-//     console.log(`hasil dari perkalian ${angka1} and ${angka2} adalah ${hasil3}`);
+rl.question("Angka pertama yang mau di kalikan? ", (angka1) => {
+  rl.question("Angka kedua yang mau di kalikan? ", (angka2) => {
+    const hasil3 = kali(parseInt(angka1), parseInt(angka2));
+    console.log(`hasil dari perkalian ${angka1} and ${angka2} adalah ${hasil3}`);
 
-//     rl.close();
-//   });
-// });
+    rl.close();
+  });
+});
 
 // 4 hasil bagi inputan user
 rl.question("Angka pertama yang mau di bagikan? ", (angka1) => {
